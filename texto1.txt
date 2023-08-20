@@ -1,5 +1,7 @@
 The new top-level tree contains two items: the original hello.txt file as well as the new subdir directory, which is of type tree instead of blob.
-iserindo em 1
+
+inserindo 1
+
 Notice anything unusual? Look closer at the object name of subdir. It’s your old friend, 68aba62e560c0ebc3396e8ae9335232cd93a3f60!
 
 What just happened? The new tree for subdir contains only one file, hello.txt, and that file contains the same old “hello world” content. So the subdir tree is exactly the same as the older, top-level tree! And of course it has the same SHA1 object name as before.
